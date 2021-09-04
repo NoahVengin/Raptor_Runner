@@ -29,7 +29,7 @@ public class Weapon : MonoBehaviour
         {
             CreateHitImpact(hit);
 
-            EnemySpeedManager target = hit.transform.GetComponent<EnemySpeedManager>();
+            EnemyAI target = hit.transform.GetComponent<EnemyAI>();
 
             if(target) { target.Sedate(sedativeStrength); }
         } 

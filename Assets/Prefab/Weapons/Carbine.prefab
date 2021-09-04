@@ -183,7 +183,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fpCamera: {fileID: 0}
   range: 100
-  sedativeStrength: 1
+  sedativeStrength: 5
   muzzleBurst: {fileID: 8764254807873626318}
   hitEffect: {fileID: 0}
 --- !u!1 &7652308397344650533

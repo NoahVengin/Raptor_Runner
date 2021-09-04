@@ -16,12 +16,5 @@ public class EnemySpeedManager : MonoBehaviour
         navMeshAgent.speed = speed;
     }
 
-    public void Sedate(float sedativeStrength)
-    {
-        float currentSpeed = navMeshAgent.speed;
-        if (sedativeStrength > currentSpeed) { navMeshAgent.speed = 0.0f; }
-
-        else { navMeshAgent.speed -= sedativeStrength; }
-    }
 
 }
